@@ -10,3 +10,15 @@ web控制台：http://localhost:3282/h2
 4. `AUTO_SERVER=TRUE` 混合模式启动，应用程序访问的同时，还以用网页访问（也是项目中配置了访问路径），但是用别的应用程序访问还是不可以的
 5. `MODE=MYSQL` 使用MySQL语法解析特定的数据类型、语法和函数。也就尽可能兼容MySQL，但归根到底不一样
 6. 第五条补充：https://github.com/h2database/h2database/issues/3446
+
+# replit
+
+从github导入
+
+> https://github.com/sixmillions/six-db.git
+
+```
+# .replit文件
+compile = "mvn clean compile"
+run = "mvn spring-boot:run"
+```
