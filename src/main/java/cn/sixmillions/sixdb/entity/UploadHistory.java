@@ -19,7 +19,13 @@ public class UploadHistory {
     private String fileUrl;
     private String fileName;
     private String fileS3Url;
+    private String fileNewName;
+    private String vendor;
+    private String bucketName;
     private String filePath;
+    private Integer fileSize;
+    private String mediaType;
+    private String suffix;
     private String createdBy;
     private LocalDateTime createdTime;
 }
