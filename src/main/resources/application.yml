@@ -11,6 +11,7 @@ spring:
       path: /h2
       settings:
         web-allow-others: true
+        web-admin-password: sixDB147+
   sql:
     init:
       mode: always
